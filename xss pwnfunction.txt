@@ -1,5 +1,6 @@
 eval()	--- will execute any javascript code if we inserted inside it
 
+
 autofocus onfocus=alert(1337)     --- try this if there is no user interaction,
 
 javascript:alert(1)
