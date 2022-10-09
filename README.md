@@ -1,5 +1,5 @@
 # XSS_Payloads
-Demo repo for xss payloads
+Demo repo for xss payloads.This repo will give you a brief idea of different xss payloads and bypasses
 
 # Purpose
 
