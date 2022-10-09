@@ -1,9 +1,8 @@
-# Location Based Payloads
-## ● Really complex payloads can be built
-## ● document.location properties and similar
-## ● Avoiding special chars (at least between = and >)
-## ● Game over to filter
-
+ Location Based Payloads
+● Really complex payloads can be built
+● document.location properties and similar
+● Avoiding special chars (at least between = and >)
+● Game over to filter
 
 ● location.protocol
 protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
