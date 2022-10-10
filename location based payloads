@@ -1,0 +1,42 @@
+ Location Based Payloads
+● Really complex payloads can be built
+● document.location properties and similar
+● Avoiding special chars (at least between = and >)
+● Game over to filter
+
+● location.protocol
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● location.hostname, document.domain
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● location.origin
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● location.pathname
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● location.search
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● previousSibling.nodeValue, document.body.textContent* ("Before")
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● tagName, nodeName ("Itself")
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● outerHTML ("Itself")
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● innerHTML* ("After")
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● textContent, nextSibling.nodeValue*, firstChild.nodeValue, lastChild.
+nodeValue ("After")
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● Location.hash ("Hash")
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
+
+● URL, location.href, baseURI, documentURI
+protocol: // domain / path/page ?p= text1 <tag handler=code> text2 # text3
