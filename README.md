@@ -5,4 +5,10 @@ Demo repo for xss payloads.This repo will give you a brief idea of different xss
 
 Hackers can build and share own knowledge using this repo
 
+
+# Disclaimer
+
+Use at your own risk
+
 # for beginners only 
+
