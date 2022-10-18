@@ -4,3 +4,5 @@ Demo repo for xss payloads.This repo will give you a brief idea of different xss
 # Purpose
 
 Hackers can build and share own knowledge using this repo
+
+# for beginners only 
